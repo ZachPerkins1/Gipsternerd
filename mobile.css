@@ -1,0 +1,28 @@
+#content {
+	width: 585px;
+}
+
+#banner {
+	width: 100%;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#banner img {
+	height: 200;
+}
+
+#menu {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+#menu .button {
+	font-size: 17pt;
+	width: 50%;
+}
+
+#page {
+	font-size: 14pt;
+}

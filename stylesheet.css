@@ -1,12 +1,245 @@
 body {
-	
+	font-size: 0;
+	background-color: #5C5C5C;
+}
+
+::selection {
+  background: #C9C9C9; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #C9C9C9; /* Gecko Browsers */
 }
 
 #content {
+	position: relative;
+
 	margin-left: auto;
 	margin-right: auto;
-	background-color: red;
 
-	width: 800px;
+	left: -8; /* fuck css */
+
+	margin-top: -10;
+
+	background-color: #5C5C5C;
+
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	width: 1000px;
+
+	color: white;
+	font-family: 'Droid Sans', sans-serif;
 }
+
+#content h1 {
+	font-size: 40pt;
+	margin-bottom: -10px;
+	margin-top: 5px;
+	color: #4183E8;
+}
+
+#content h2 {
+	font-size:35pt;
+	margin-bottom: -10px;
+	margin-top: 5px;
+	color: #4183E8;
+}
+
+#content h3 {
+	font-size:30pt;
+	margin-bottom: -10px;
+	margin-top: 5px;
+	color: #4183E8;
+}
+
+#content h4 {
+	font-size: 25pt;
+	margin-bottom: -10px;
+	margin-top: 5px;
+	color: #4183E8;
+}
+
+#content h5 {
+	font-size: 20pt;
+	margin-bottom: -10px;
+	margin-top: 5px;
+	color: #4183E8;
+}
+
+#content hr {
+	height: 2px;
+	color: #4183E8;
+	background-color: #4183E8;
+	border-color: #4183E8;
+	border: 0 none;
+	margin-bottom: -5px;
+}
+
+#banner {
+	float: left;
+	width: 100%;
+}
+
+#banner img {
+	height: 200;
+}
+
+#banner span {
+	width: 41%;
+}
+
+#menu {
+	position: relative;
+
+	float: right;
+	text-align: center;
+
+	width: 59%;
+
+	margin-top: 70px;
+
+	color: #4F95FF;
+
+}
+
+
+#menu a {
+	text-decoration: none;
+	text-align: center;
+}
+
+#menu .button {
+	display: inline-block;
+
+	vertical-align: bottom;
+
+	position: relative;
+
+	background-color: white;
+
+	width: 115px;
+	height: 70px;
+
+	margin-right: 0px;
+	margin-left: 0px;
+
+	font-size: 13.5pt;
+
+	transition: background-color 0.2s;
+}
+
+#menu .button p {
+	margin-top: 0;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
+
+#menu .button:hover {
+	background-color: #C9C9C9;
+	transition: background-color 0.2s;
+}
+
+#menu a:visited {
+	color: #4F95FF;
+}
+
+#menu .button:active {
+	background-color: #C9C9C9;
+} 
+
+#page {
+	margin-top: 95px;
+	font-size: 12pt;
+}
+
+#footer {
+	font-size: 12pt;
+}
+
+span.right {
+	float: right;
+}
+
+span.left {
+	float: left;
+}
+
+/*Posts*/
+
+.post hr {
+	border:none !important;
+ 	border-top:3px dashed #f00 !important;
+ 	border-color: white !important;
+ 	color: none !important;
+  	background-color: transparent !important;
+	height:1px !important;
+}
+
+.post {
+	font-size: 12pt;
+	width: 960px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+
+	border: 3px dashed white;
+}
+
+.post .header {
+	width: 100%;
+	position: relative;
+	display: inline-block;
+}
+
+.post a {
+	text-decoration: none;
+}
+
+.post .content {
+}
+
+.post .content a {
+	color: #FF4F6C;
+	border-bottom: 1px dotted #F7778C;
+}
+
+.post .content a:hover {
+	color: #F7778C;
+	border-bottom: none;
+}
+
+.post .content a:visited {
+	color: #FF4F6C;
+}
+
+.post .header .title {
+	color: #FF4F6C;
+	font-size: 25pt;
+	float: left;
+	margin-bottom: -5;
+}
+
+.post .header .title:hover {
+	color: white;
+}
+
+.post .date {
+	color: #FF4F6C;
+	border-bottom: 1px dotted #FF4F6C;
+	float: right;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.post .date:hover {
+	border-bottom: none;
+	bottom: 1;
+}
+
 
