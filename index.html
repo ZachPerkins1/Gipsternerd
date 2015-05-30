@@ -2,25 +2,50 @@
 	<head>
 		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="stylesheet.css">
-		<link rel="stylesheet" media="(max-width: 999px) and (min-width: 501px)" href="small_screen.css">
+		<link rel="stylesheet" media="(max-width: 999px)" href="small_screen.css">
 		<link rel="stylesheet" media="all and (max-device-width: 480px) and (orientation:portrait)" href="mobile.css">
 		
 		<script type="text/javascript" src="scripts/resize.js"></script>
+        
 
 		<title>Gipsternerd</title>
 	</head>
-	<body>
+	<body> 
+        <div id="bar">
+            <div id="banner">
+                <img src="images/gipsternerd_logo.png">
+                    <div id="menu">
+                        
+                        <div id="buttons">
+                            <a href="index.html"><div class="button" id="geek"><p>Geek</p></div></a>
+                            <a href="dank_memes.html"><div class="button" id="hipster"><p>Hipster</p></div></a>
+                            <a href="dank_tunes.html"><div class="button" id="nerd"><p>Nerd</p></div></a>
+                        </div>
+                        
+                        <div id="login-field">   
+                        <form>
+                            <div id="login-info">
+                                <br>
+                                <span>Username</span><br>
+                                <input type="text" name="usr">
+                                <br>
+                                <hr/>
+                                <span>Password</span><br>
+                                <input type="password" name="pass">
+                            </div>
+                            
+                            <div id="submit-button">
+                                <input type="submit" value="Login >" name="pass">
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                
+                
+            </div>
+        </div>
+        
 		<div id="content">
-			<div id="banner">
-				<span><img src="images/gipsternerd_logo.png"></span>
-				<div id="menu">
-					<a href="index.html"><div class="button"><p>Home</p></div></a>
-					<a href="dank_memes.html"><div class="button"><p>Dank Memes</p></div></a>
-					<a href="dank_tunes.html"><div class="button"><p>Dank Tunes</p></div></a>
-					<a href="other_link.html"><div class="button"><p>Other Link</p></div></a>
-				</div>
-			</div>
-
 			<div id="page">
 				<h3>Home</h3>
 				<hr></hr>
