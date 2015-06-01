@@ -146,7 +146,7 @@ body {
     border:none !important;
  	color: none !important;
   	background-color: transparent !important;
-    margin-bottom: -5;
+    margin-bottom: -4;
 }
 
 #menu #login-field input[type=submit] {
@@ -160,17 +160,24 @@ body {
 #menu #login-field input[type=submit]:hover {
     background-color: #f07a8e;
     color: white;
+    width: 100%;
 }
 
 #menu #login-field input[type=text] {
-    padding: 5
+    padding: 2;
+    width: 150;
+}
+
+#menu #login-field input[type=password] {
+    padding: 2;
+    width: 150;
 }
 
 #menu #login-field #login-info {
     display: inline-block;
     position: absolute;
     right: 90px;
-    bottom: 3px;
+    bottom: 8px;
 
 }
 
