@@ -15,23 +15,12 @@ body {
     position: fixed;
     margin-top: -8;
     top: 0;
-    height: 100;
+    height: 160px;
     background-color: white;
     margin-right: -8;
     margin-left: -8;
     width: 100%;
-    box-shadow: 0px 3px 9px black;
     z-index: 1;
-}
-
-#banner {
-	float: left;
-	width: 100%;
-}
-
-#banner img {
-	height: 100;
-    padding-left: 20;
 }
 
 #banner span {
@@ -41,9 +30,7 @@ body {
 #menu {
 	position: relative;
 
-	float: right;
-
-	width: 70%;
+	width: 100%;
 
 	color: #4F95FF;
     text-align: right;
@@ -51,6 +38,17 @@ body {
     
     font-size: 12px;
 
+    height: 100px;
+    box-shadow: 0px 3px 9px black;
+    z-index: 1;
+
+
+}
+
+#menu img {
+	height: 100px;
+    padding-left: 20px;
+    float: left;
 }
 
 
@@ -188,7 +186,57 @@ body {
     bottom: 29px;
 }
 
+#sub-menu {
+	width: 100%;
+	height: 60px;
+	background-color: #D8D8D8;
+	z-index: 0;
+}
 
+#sub-menu #buttons {
+	font-size: 12pt;
+	text-align: center;
+}
+
+#sub-menu #buttons .button {
+	display: inline-block;
+
+	vertical-align: bottom;
+
+	position: relative;
+
+	background-color: #D8D8D8;
+
+	width: 115px;
+	height: 60px;
+    
+    color: white;
+
+	margin-right: 3%;
+	margin-left: 3%;
+
+	font-size: 12pt;
+
+	box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+
+    border-bottom: 0px solid #99CCFF;
+
+    transition: border-bottom 0.3s;
+}
+
+#sub-menu #buttons .button:hover {
+	border-bottom: 60px solid #99CCFF;
+	transition: border-bottom 0.5s;
+}
+
+#menu #buttons .button p {
+	margin-top: 10px;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+}
 
 
 #content {
